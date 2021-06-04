@@ -1,3 +1,4 @@
+#    Validador de CPF com a função de verificar se um CPF é ou não válido
 cpf_dig = input("digite o cpf: ")
 tam_cpf_01 = len(cpf_dig)
 lista_cpf = []
@@ -8,7 +9,7 @@ novo_num2 = 0
 soma_total = 0
 soma_total2 = 0
 
-contador = 0
+contador = 0   
 
 for n in cpf_dig:
     n = int(n)
